@@ -1,0 +1,8 @@
+#nav {
+    background-color: grey;
+    
+    text-align: center;
+}
+#nav a {
+   margin: 10px;
+}
