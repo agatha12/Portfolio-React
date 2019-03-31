@@ -1,5 +1,6 @@
 .App {
-  background-image: url("./images/morocco.png")
+  background-image: url("./images/morocco.png");
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 #content {

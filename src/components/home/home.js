@@ -7,9 +7,9 @@ return (
 <div id="home" className="animated ">
 <br></br>
     <div id='hometext' className="animated jackInTheBox">
-        Hi, I'm Agatha 
+        Hi, I'm Agatha,
         <br></br>
-        <p>I'm a Full Stack Developer</p>
+        <p>a Full Stack Developer.</p>
         <button id ="explore" onClick={() => {
         //    const home = document.getElementById("home")
         //     home.classList.add("zoomOutLeft")
