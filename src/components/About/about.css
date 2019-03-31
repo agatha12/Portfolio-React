@@ -1,8 +1,16 @@
 .card-panel {
     text-align: center;
+    background-color: #4bafc6;
+    color: white;
+    
   
 }
 
 #about {
     margin-top: 50px;
+    text-align: center;
+}
+
+#shedPlug {
+    font-size: 12px;
 }
