@@ -1,9 +1,12 @@
 .card-panel {
     text-align: center;
-    background-color: #4bafc6;
     color: white;
     
   
+}
+
+#aboutMe {
+    color: #006064 
 }
 
 #about {
