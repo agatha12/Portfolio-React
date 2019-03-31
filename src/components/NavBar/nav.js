@@ -1,12 +1,14 @@
 import React from 'react'
-// import { Navbar, NavItem, Icon } from 'react-materialize'
+//import { Navbar, NavItem, Icon } from 'react-materialize'
 import './nav.css'
+import 'materialize-css'
 
 
 const Nav = () => {
 return (
 
-    <div onScroll={() => {
+    <div className="site-sidebar"
+  //   onScroll={() => {
   //     var navPos = $('nav').position().top;
   //     var lastPos = 0;
   //     var lockTimer
@@ -26,24 +28,26 @@ return (
   //     }
   //     lastPos = pos;
   //   }
-  console.log(window.pageYOffset)
-    }}>
-    <nav id="nav">
-      <div className="nav-wrapper">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-        <a href="https://docs.google.com/document/d/17mbK8ZoewXg23l-SIKLE2XdMilxtAZwldfprjJcQrlA/edit?usp=sharing" target="blank">Resume</a>
+  // console.log(window.pageYOffset)
+  //   }}
+     >
+
+      <ul id="nav">
+        <li><a className="navLink" href="#home"><i class="material-icons md-24">home</i> Home</a></li>
+        <li><a className="navLink" href="#about"><i class="material-icons md-24">account_circle</i> About</a></li>
+        <li><a className="navLink" href="#skills"><i class="material-icons md-24">code</i> Skills</a></li>
+        <li><a className="navLink" href="#portfolio"><i class="material-icons md-24">computer</i> Portfolio</a></li>
+        <li><a className="navLink" href="#contact"><i class="material-icons md-24">email</i> Contact</a></li>
+        <li><a className="navLink" target="blank" href="https://docs.google.com/document/d/17mbK8ZoewXg23l-SIKLE2XdMilxtAZwldfprjJcQrlA/edit?usp=sharing"><i class="material-icons md-24">description</i> Resume</a></li>
 
         
          
          
 
         
-      </div>
-    </nav>
+      </ul>
+
+
 
 
   </div>

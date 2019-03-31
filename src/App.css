@@ -1,3 +1,8 @@
 .App {
-  background-image: url("./images/brickwall.png")
+  background-image: url("./images/morocco.png")
+}
+
+#content {
+  margin-left: 18%;
+  
 }
