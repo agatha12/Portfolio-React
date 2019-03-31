@@ -21,14 +21,17 @@ class App extends Component {
           <Col s={2}>
             <Nav />
           </Col>
-          <div id="content">
           
+          <Col>
+          <div id="content">
             <Home />
             <About />
             <Skills />
             <Portfolio />
             <Contact />
             </div>
+            </Col>
+            
 
         </Row>
       </div>
