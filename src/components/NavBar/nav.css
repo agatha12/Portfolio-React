@@ -54,11 +54,11 @@
   }
 
   .navLink{
-    color: #4bafc6
+    color: white
   }
 
   #title {
-    color: #4bafc6;
+    color: white;
     font-size: 18px;
     text-align:center;
   
@@ -76,14 +76,14 @@
     z-index: 2;
     width: 18%;
     font-size: 18px;
-    color: #4bafc6;
+    background-color: #4bafc6;
     text-align: left;
-    background-color: white;
+    color: white;
     box-shadow: 2px 2px 6px grey;
   }
 
   i {
-    color: #4bafc6;
+    color: white;
     position: realtive;
     top: 10px;
   }
