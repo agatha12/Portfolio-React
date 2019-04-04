@@ -26,23 +26,23 @@ const Skills = () => {
                 <p className="smallTitle">HTML and CSS</p>
             </Row>
             <Row>
-                <Col className="skill">
+                <Col data-aos="slide-down" data-aos-duration="400" className="skill">
                     <i className="skillIcon fab fa-html5"></i>
                     <p>HTML 5</p>
                 </Col>
-                <Col className="skill">
+                <Col data-aos="slide-down" data-aos-duration="800" className="skill">
                 <Icon className="skillIcon" icon={languageJsx} />
                     <p>JSX</p>
                 </Col>
-                <Col className="skill">
+                <Col data-aos="slide-down" data-aos-duration="1200" className="skill">
                     <i className="skillIcon fab fa-css3"></i>
                     <p>CSS 3</p>
                 </Col>
-                <Col className="skill">
+                <Col data-aos="slide-down" data-aos-duration="1600" className="skill">
                     <i className="skillIcon fab fa-bootstrap"></i>
                     <p>Bootstrap.css</p>
                 </Col>
-                <Col className="skill">
+                <Col data-aos="slide-down" data-aos-duration="2000" className="skill">
                 <Icon className="skillM" icon={materializecssIcon} />
                 <p>Materialize.css</p>
                 </Col>
@@ -51,23 +51,23 @@ const Skills = () => {
                 <p className="smallTitle">Javascript</p>
             </Row>
             <Row>
-                <Col className="skill">
+                <Col data-aos="slide-down" data-aos-duration="400" className="skill">
                     <i className="skillIcon fab fa-js"></i>
                     <p>Javascript</p>
                 </Col>
-                <Col className="skill">
+                <Col data-aos="slide-down" data-aos-duration="800" className="skill">
                 <Icon className="skillIcon" icon={jqueryIcon} />
                     <p>jQuery</p>
                 </Col>
-                <Col className="skill">
+                <Col data-aos="slide-down" data-aos-duration="1200" className="skill">
                     <i className="skillIcon fab fa-node"></i>
                     <p>Node.js</p>
                 </Col>
-                <Col className="skill">
+                <Col data-aos="slide-down" data-aos-duration="1600" className="skill">
                     <i className="skillIcon fab fa-react"></i>
                     <p>React.js</p>
                 </Col>
-                <Col className="skill">
+                <Col data-aos="slide-down" data-aos-duration="2000" className="skill">
                 <Icon className="skillIcon" icon={reduxIcon} />
                     <p>Redux.js</p>
                 </Col>
@@ -77,11 +77,11 @@ const Skills = () => {
                 <p className="smallTitle">Back-End</p>
             </Row>
             <Row>
-                <Col className="skill">
+                <Col data-aos="slide-down" data-aos-duration="400" className="skill">
                 <Icon className="skillIcon" icon={mysqltwoIcon} />
                     <p>MySQL</p>
                 </Col>
-                <Col className="skill">
+                <Col data-aos="slide-down" data-aos-duration="800" className="skill">
                 <Icon className="skillIcon" icon={mongodbIcon} />
                     <p>MongoDB</p>
                 </Col>
@@ -90,19 +90,19 @@ const Skills = () => {
                     <p className="smallTitle">Other</p>
                 </Row>
                 <Row>
-                <Col className="skill">
+                <Col data-aos="slide-down" data-aos-duration="400" className="skill">
                 <Icon className="skillIcon" icon={firebaseIcon} />
                     <p>Firebase</p>
                 </Col>
-                <Col className="skill">
+                <Col data-aos="slide-down" data-aos-duration="800" className="skill">
                     <i className="skillIcon fab fa-github"></i>
                     <p>GitHub</p>
                 </Col>
-                <Col className="skill hide-on-small-only">
+                <Col data-aos="slide-down" data-aos-duration="1200" className="skill hide-on-small-only">
                 <Icon className="skillIcon" icon={photoshopIcon} />  
                <p>Photoshop</p>
                 </Col>
-                <Col className="skill">
+                <Col data-aos="slide-down" data-aos-duration="1600" className="skill">
                 <Icon className="skillIcon" icon={herokuIcon} />
                     <p>Heroku</p>
                 </Col>
