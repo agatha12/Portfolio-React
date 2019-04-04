@@ -2,8 +2,17 @@ import React from 'react'
 import './skills.css'
 import { Col, Row, CardPanel } from 'react-materialize'
 import { Icon, InlineIcon } from '@iconify/react';
+import firebaseIcon from '@iconify/react/mdi/firebase';
+import mongodbIcon from '@iconify/react/simple-icons/mongodb';
+import jqueryIcon from '@iconify/react/mdi/jquery';
 import languageJsx from '@iconify/react/mdi/language-jsx';
 import materializecssIcon from '@iconify/react/logos/materializecss';
+import reduxIcon from '@iconify/react/simple-icons/redux';
+import mysqltwoIcon from '@iconify/react/whh/mysqltwo';
+import herokuIcon from '@iconify/react/simple-icons/heroku';
+import photoshopIcon from '@iconify/react/whh/photoshop';
+
+
 
 const Skills = () => {
     return (
@@ -34,7 +43,7 @@ const Skills = () => {
                     <p>Bootstrap.css</p>
                 </Col>
                 <Col className="skill">
-                <Icon className="skillIcon" icon={materializecssIcon} />
+                <Icon className="skillM" icon={materializecssIcon} />
                 <p>Materialize.css</p>
                 </Col>
             </Row>
@@ -47,7 +56,7 @@ const Skills = () => {
                     <p>Javascript</p>
                 </Col>
                 <Col className="skill">
-                    <i className="skillIcon fab fa-jquery"></i>
+                <Icon className="skillIcon" icon={jqueryIcon} />
                     <p>jQuery</p>
                 </Col>
                 <Col className="skill">
@@ -59,7 +68,7 @@ const Skills = () => {
                     <p>React.js</p>
                 </Col>
                 <Col className="skill">
-                    <span class="iconify skillIcon" data-icon="simple-icons:redux" data-inline="false"></span>
+                <Icon className="skillIcon" icon={reduxIcon} />
                     <p>Redux.js</p>
                 </Col>
 
@@ -69,11 +78,11 @@ const Skills = () => {
             </Row>
             <Row>
                 <Col className="skill">
-                    <i className="skillIcon fab fa-mysql"></i>
+                <Icon className="skillIcon" icon={mysqltwoIcon} />
                     <p>MySQL</p>
                 </Col>
                 <Col className="skill">
-                    <i className="skillIcon fab fa-mongodb"></i>
+                <Icon className="skillIcon" icon={mongodbIcon} />
                     <p>MongoDB</p>
                 </Col>
             </Row>
@@ -82,22 +91,24 @@ const Skills = () => {
                 </Row>
                 <Row>
                 <Col className="skill">
-                    <i className="skillIcon fab fa-firebase"></i>
+                <Icon className="skillIcon" icon={firebaseIcon} />
                     <p>Firebase</p>
                 </Col>
                 <Col className="skill">
                     <i className="skillIcon fab fa-github"></i>
                     <p>GitHub</p>
                 </Col>
+                <Col className="skill hide-on-small-only">
+                <Icon className="skillIcon" icon={photoshopIcon} />  
+               <p>Photoshop</p>
+                </Col>
                 <Col className="skill">
-                    <i className="skillIcon fab fa-heroku"></i>
+                <Icon className="skillIcon" icon={herokuIcon} />
                     <p>Heroku</p>
                 </Col>
-                <Col className="skill">
-                    <i className="skillIcon fab fa-photoshop"></i>
-                    <p>Photoshop</p>
-                </Col>
+            
                 </Row>
+
             
         
         </div>
