@@ -15,10 +15,10 @@ return (
 <button className="button" onClick={() => {window.location.href= "/#skills"}}>Skills</button>
 <button className="button" onClick={() => {window.location.href= "/#portfolio"}}>Portfolio</button>
 <button className="button" onClick={() => {window.location.href = "/#contact"}}>Contact</button> */}
-        <a className="navLink hvr-wobble-top" href="#about"><i className="material-icons md-24">account_circle</i> About</a>
-        <a className="navLink hvr-wobble-top" href="#skills"><i className="material-icons md-24">code</i> Skills</a>
-        <a className="navLink hvr-wobble-top" href="#portfolio"><i className="material-icons md-24">computer</i> Portfolio</a>
-        <a className="navLink hvr-wobble-top" href="#contact"><i className="material-icons md-24">email</i> Contact</a>
+        <a  href="#about"><i className="material-icons md-24">account_circle</i> About</a>
+        <a  href="#skills"><i className="material-icons md-24">code</i> Skills</a>
+        <a  href="#portfolio"><i className="material-icons md-24">computer</i> Portfolio</a>
+        <a  href="#contact"><i className="material-icons md-24">email</i> Contact</a>
 <button  className="button" onClick={() => {window.location.href = "https://docs.google.com/document/d/17mbK8ZoewXg23l-SIKLE2XdMilxtAZwldfprjJcQrlA/edit?usp=sharing"}}>Resume</button>
 
 </Dropdown>
