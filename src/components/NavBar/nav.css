@@ -100,7 +100,11 @@
   background-color: #006064;
   color: white;
   font-family: 'Montserrat Alternates', sans-serif;
-}
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+  }
 
 #menu {
   background-color: #006064;
@@ -115,6 +119,8 @@
   font-family: 'Montserrat Alternates', sans-serif;
   border-color: transparent;
   text-align: center;
+  height: 50px;
+  width: 100%;
 }
 
 #drop li {
