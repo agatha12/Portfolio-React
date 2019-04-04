@@ -1,11 +1,15 @@
 import React from 'react'
+import { Col } from 'react-materialize'
 import './home.css'
 
 
 const Home = () => {
 return (
 <div id="home" className="animated ">
+
 <br></br>
+
+<Col s={12}>
     <div id='hometext' className="animated jackInTheBox">
         Hi, I'm Agatha,
         <br></br>
@@ -16,7 +20,7 @@ return (
         window.location.href="#about"
         }}>Explore my Portfolio...</button>
     </div>
-
+    </Col>
 </div>
 )
 }

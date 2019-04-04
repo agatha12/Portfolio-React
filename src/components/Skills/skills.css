@@ -1,9 +1,23 @@
 #skills {
-    background-color: #006064;
-    color: white;
-    text-align: center;
+    color:#006064;
 }
 
+.skillIcon {
+    color: #006064;
+    font-size: 150px;
+    text-shadow: 2px 2px 2px grey;
+    
+}
+
+
 .skill {
-    color: #006064
+    margin: 20px;
+}
+.skill p {
+    text-align: center;
+    font-size: 24px;
+}
+.smallTitle {
+    margin: 30px;
+    font-size: 30px;
 }

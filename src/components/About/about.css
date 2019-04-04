@@ -1,15 +1,15 @@
 .card-panel {
     text-align: center;
     color: white;
-    
-  
+    font-size: 18px;
 }
-
-
-
+#agpic{
+    border-radius: 50%;
+}
 #about {
     margin-top: 50px;
     text-align: center;
+
 }
 
 #shedPlug {

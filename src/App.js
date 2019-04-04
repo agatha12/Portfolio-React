@@ -18,11 +18,11 @@ class App extends Component {
       <div className="App">
         <Row>
 
-          <Col s={2}>
+          <Col m={2} s={0} className="hide-on-small-only">
             <Nav />
           </Col>
           
-          <Col>
+          <Col m={10}>
           <div id="content">
             <Home />
             <About />

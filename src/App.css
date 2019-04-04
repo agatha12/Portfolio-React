@@ -3,12 +3,16 @@
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
-#content {
+/* #content {
   margin-left: 18%;
   
-}
+} */
 
 .title {
   color: #006064;
   text-align: center;
+}
+
+.row .col.s12 {
+  margin-left: 0;
 }
