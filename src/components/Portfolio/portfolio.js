@@ -17,7 +17,7 @@ const Portfolio = () => {
             </Row>
             <Row>
 
-                <Col m={6} s={11}>
+                <Col m={6} s={12}>
                     <CardPanel className="projectCard cyan darken-4">
                         <h4>Trip Pal</h4>
                         <img className="cardImg" alt="Trip Pal" src={TripPal}></img><br></br>
@@ -35,7 +35,7 @@ password: guest1</p>
                         <a target="blank" href="https://github.com/agatha12/Travel-App">GitHub</a>
                     </CardPanel>
                 </Col>
-                <Col m={6} s={11}>
+                <Col m={6} s={12}>
                     <CardPanel className="projectCard cyan darken-4">
                         <h4>Dev Tauks</h4>
                         <img className="cardImg" alt="Dev Tauks" src={Shop}></img><br></br>
@@ -56,7 +56,7 @@ password: guest1</p>
             </Row>
             <Row>
 
-                <Col m={6} s={11}>
+                <Col m={6} s={12}>
                     <CardPanel className="projectCard cyan darken-4">
                         <h4>Marvel Clicky Game</h4>
                         <img className="cardImg" alt="Trip Pal" src={Click}></img><br></br>
@@ -65,7 +65,7 @@ password: guest1</p>
                         <a target="blank" href="https://github.com/agatha12/Clicky-Game">GitHub</a>
                     </CardPanel>
                 </Col>
-                <Col m={6} s={11}>
+                <Col m={6} s={12}>
                     <CardPanel className="projectCard cyan darken-4">
                         <h4>Dream Job Finder</h4>
                         <img className="cardImg" alt="Trip Pal" src={Jobs}></img><br></br>
