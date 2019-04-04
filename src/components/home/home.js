@@ -12,7 +12,7 @@ return (
 
 <br></br>
 
-<Col s={12}>
+<Col>
     <div id='hometext'>
         <p data-aos="zoom-in">Hi, I'm Agatha,</p>
         <p data-aos="zoom-in" data-aos-duration="1000">a Full Stack Developer.</p>
