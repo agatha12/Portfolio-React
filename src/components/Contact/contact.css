@@ -5,5 +5,14 @@
     height: 85vh;
 }
 #contact h1 {
-    padding-top:100px;
+    padding-top:200px;
+}
+
+#contact a {
+    color: white;
+    font-size: 20px;
+}
+
+#contact a:hover {
+    color: skyblue;
 }

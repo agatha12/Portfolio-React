@@ -120,3 +120,20 @@
 #drop li {
   background-color: #006064;
 }
+
+@media screen and (max-width: 1050px) {
+#name {
+  font-size: 24px;
+}
+
+}
+
+@media screen and (max-width: 750px) {
+  #name {
+    font-size: 18px;
+  }
+  #nav li a {
+    font-size: 18px;
+  }
+  
+  }

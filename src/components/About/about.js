@@ -2,6 +2,8 @@ import React from 'react'
 import { Col, Row, CardPanel } from 'react-materialize'
 import agpic from "../../images/agpic.jpg"
 import './about.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const About = () => {
@@ -9,7 +11,10 @@ const About = () => {
         <div id="about">
             <Row>
                 <br></br>
-                <h2 className="title animated slideInDown">About Me</h2>
+                <div data-aos="fade-in">
+                <h2 className="title">About Me</h2>
+                </div>
+                
                 <br></br>
             </Row>
             <Row >
