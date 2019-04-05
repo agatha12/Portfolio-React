@@ -3,16 +3,19 @@
     background-color: #006064;
     color:white;
     height: 85vh;
+    font-size:35px;
 }
 #contact h1 {
     padding-top:200px;
+    text-decoration: underline;
 }
 
-#contact a {
+#contact .fab {
     color: white;
-    font-size: 20px;
+    font-size: 80px;
+    margin: 10px;
 }
 
-#contact a:hover {
+#contact .fab:hover {
     color: skyblue;
 }
