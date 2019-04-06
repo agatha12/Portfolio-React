@@ -7,30 +7,7 @@ import 'materialize-css'
 const Nav = () => {
 return (
 
-    <div className="site-sidebar"
-  //   onScroll={() => {
-  //     var navPos = $('nav').position().top;
-  //     var lastPos = 0;
-  //     var lockTimer
-
-  // $(window).on('scroll', function () {
-
-  //   var pos = $(window).scrollTop();
-  //   var pos2 = pos + 50;
-  //   var scrollBottom = pos + $(window).height();
-
-  //   if (!isMobile) {
-  //     if (pos >= navPos + $('nav').height() && lastPos < pos) {
-  //       $('nav').addClass('fixed');
-  //     }
-  //     if (pos < navPos && lastPos > pos) {
-  //       $('nav').removeClass('fixed');
-  //     }
-  //     lastPos = pos;
-  //   }
-  // console.log(window.pageYOffset)
-  //   }}
-     >
+    <div className="site-sidebar">
 
       <ul id="nav">
         <li><h3 id="name">Agatha Kiecun</h3></li>

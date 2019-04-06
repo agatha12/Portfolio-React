@@ -25,3 +25,29 @@
     margin: 30px;
     font-size: 30px;
 }
+
+
+/* @media screen and (max-width: 640px) {
+    .skillIcon {
+        font-size: 30px;
+        
+    }
+    
+    .skillM {
+        font-size:50px;
+    }
+    
+    
+    .skill {
+        margin: 10px;
+    }
+    .skill p {
+        text-align: center;
+        font-size: 14px;
+    }
+    .smallTitle {
+        margin: 18px;
+        font-size: 18px;
+    }
+
+    } */

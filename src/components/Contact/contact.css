@@ -2,8 +2,9 @@
     text-align: center;
     background-color: #006064;
     color:white;
-    height: 85vh;
+    height: 75vh;
     font-size:35px;
+    bottom: 0;
 }
 #contact h1 {
     padding-top:200px;
