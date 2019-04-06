@@ -51,6 +51,6 @@ About me page
 
 Mobile version
 
-![Image 1](/client/src/images/ScreenshotItinAction.png)
+
 
 
