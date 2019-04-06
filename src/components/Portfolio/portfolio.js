@@ -38,7 +38,7 @@ password: guest1</p>
                 <Col m={6} s={12}>
                     <CardPanel className="projectCard cyan darken-4">
                         <h4>Dev Tauks</h4>
-                        <img className="cardImg" alt="Dev Tauks" src={Shop}></img><br></br>
+                        <img className="cardImg" alt="Dev Taukx" src={Shop}></img><br></br>
                         <p>A website that showcases and sells clothing by up and coming high fashion designers.
                         The site also features a supervisor view where items in the store can be added, deleted and modified.
                         We also have a testimonals page, a page about the featured designers and a page about the site developers. 
