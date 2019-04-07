@@ -10,7 +10,7 @@ A Portfolio to showcase my work and tell people a little bit about me on any siz
 Installation
 -----------------
 
-- Run "yarn install" from the Travel-App folder
+- Run "yarn install"
 - Run "yarn start"
 
 
