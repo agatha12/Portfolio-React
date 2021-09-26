@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@iconify/react": "^1.0.6",
     "aos": "^3.0.0-beta.6",
     "materialize-css": "^1.0.0",
     "react": "^16.8.6",
@@ -25,5 +24,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@iconify/react": "^3.0.1"
+  }
 }

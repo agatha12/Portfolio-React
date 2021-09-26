@@ -1,16 +1,17 @@
 import React from 'react'
 import './skills.css'
 import { Col, Row, CardPanel } from 'react-materialize'
-import { Icon, InlineIcon } from '@iconify/react';
-import firebaseIcon from '@iconify/react/mdi/firebase';
-import mongodbIcon from '@iconify/react/simple-icons/mongodb';
-import jqueryIcon from '@iconify/react/mdi/jquery';
-import languageJsx from '@iconify/react/mdi/language-jsx';
-import materializecssIcon from '@iconify/react/logos/materializecss';
-import reduxIcon from '@iconify/react/simple-icons/redux';
-import mysqltwoIcon from '@iconify/react/whh/mysqltwo';
-import herokuIcon from '@iconify/react/simple-icons/heroku';
-import photoshopIcon from '@iconify/react/whh/photoshop';
+//import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
+// import firebaseIcon from '@iconify/react/mdi/firebase';
+// import mongodbIcon from '@iconify/react/simple-icons/mongodb';
+// import jqueryIcon from '@iconify/react/mdi/jquery';
+// import languageJsx from '@iconify/react/mdi/language-jsx';
+// import materializecssIcon from '@iconify/react/logos/materializecss';
+// import reduxIcon from '@iconify/react/simple-icons/redux';
+// import mysqltwoIcon from '@iconify/react/whh/mysqltwo';
+// import herokuIcon from '@iconify/react/simple-icons/heroku';
+// import photoshopIcon from '@iconify/react/whh/photoshop';
 
 
 
@@ -31,7 +32,9 @@ const Skills = () => {
                     <p>HTML 5</p>
                 </Col>
                 <Col data-aos="slide-down" data-aos-duration="800" className="skill">
-                <Icon className="skillIcon" icon={languageJsx} />
+                <Icon className="skillIcon" icon="mdi:language-jsx"
+                //{languageJsx} 
+                />
                     <p>JSX</p>
                 </Col>
                 <Col data-aos="slide-down" data-aos-duration="1200" className="skill">
@@ -43,7 +46,7 @@ const Skills = () => {
                     <p>Bootstrap.css</p>
                 </Col>
                 <Col data-aos="slide-down" data-aos-duration="2000" className="skill">
-                <Icon className="skillM" icon={materializecssIcon} />
+                <Icon className="skillM" icon="logos:materializecss" />
                 <p>Materialize.css</p>
                 </Col>
             </Row>
@@ -56,7 +59,7 @@ const Skills = () => {
                     <p>Javascript</p>
                 </Col>
                 <Col data-aos="slide-down" data-aos-duration="800" className="skill">
-                <Icon className="skillIcon" icon={jqueryIcon} />
+                <Icon className="skillIcon" icon="mdi:jquery" />
                     <p>jQuery</p>
                 </Col>
                 <Col data-aos="slide-down" data-aos-duration="1200" className="skill">
@@ -68,21 +71,50 @@ const Skills = () => {
                     <p>React.js</p>
                 </Col>
                 <Col data-aos="slide-down" data-aos-duration="2000" className="skill">
-                <Icon className="skillIcon" icon={reduxIcon} />
+                <Icon className="skillIcon" icon="simple-icons:redux"/>
                     <p>Redux.js</p>
+                </Col>
+                <Col data-aos="slide-down" data-aos-duration="2000" className="skill">
+                <Icon className="skillIcon" icon="cib:angular"/>
+                    <p>Angualr.js</p>
                 </Col>
 
             </Row>
             <Row>
-                <p className="smallTitle">Back-End</p>
+                <p className="smallTitle">.NET</p>
             </Row>
             <Row>
                 <Col data-aos="slide-down" data-aos-duration="400" className="skill">
-                <Icon className="skillIcon" icon={mysqltwoIcon} />
+                <Icon className="skillIcon" icon="mdi:dot-net" />
+                    <p>.NET</p>
+                </Col>
+                <Col data-aos="slide-down" data-aos-duration="800" className="skill">
+                <Icon className="skillIcon" 
+                //icon={mongodbIcon} 
+                icon="teenyicons:c-sharp-outline"/>
+                    <p>C#</p>
+                </Col>
+            </Row>
+            <Row>
+                <p className="smallTitle">Database</p>
+            </Row>
+            <Row>
+                <Col data-aos="slide-down" data-aos-duration="400" className="skill">
+                <Icon className="skillIcon" icon="simple-icons:oracle" />
+                    <p>Oracle</p>
+                </Col>
+                <Col data-aos="slide-down" data-aos-duration="400" className="skill">
+                <Icon className="skillIcon" icon="simple-icons:microsoftsqlserver" />
+                    <p>SQL Server</p>
+                </Col>
+                <Col data-aos="slide-down" data-aos-duration="400" className="skill">
+                <Icon className="skillIcon" icon="whh:mysqltwo" />
                     <p>MySQL</p>
                 </Col>
                 <Col data-aos="slide-down" data-aos-duration="800" className="skill">
-                <Icon className="skillIcon" icon={mongodbIcon} />
+                <Icon className="skillIcon" 
+                //icon={mongodbIcon} 
+                icon="simple-icons:mongodb"/>
                     <p>MongoDB</p>
                 </Col>
             </Row>
@@ -91,7 +123,11 @@ const Skills = () => {
                 </Row>
                 <Row>
                 <Col data-aos="slide-down" data-aos-duration="400" className="skill">
-                <Icon className="skillIcon" icon={firebaseIcon} />
+                <Icon className="skillIcon" icon="mdi:microsoft-azure" />
+                    <p>Azure</p>
+                </Col>
+                <Col data-aos="slide-down" data-aos-duration="400" className="skill">
+                <Icon className="skillIcon" icon="mdi:firebase" />
                     <p>Firebase</p>
                 </Col>
                 <Col data-aos="slide-down" data-aos-duration="800" className="skill">
@@ -99,11 +135,11 @@ const Skills = () => {
                     <p>GitHub</p>
                 </Col>
                 <Col data-aos="slide-down" data-aos-duration="1200" className="skill hide-on-small-only">
-                <Icon className="skillIcon" icon={photoshopIcon} />  
+                <Icon className="skillIcon" icon="whh:photoshop" />  
                <p>Photoshop</p>
                 </Col>
                 <Col data-aos="slide-down" data-aos-duration="1600" className="skill">
-                <Icon className="skillIcon" icon={herokuIcon} />
+                <Icon className="skillIcon" icon="simple-icons:heroku" />
                     <p>Heroku</p>
                 </Col>
             
