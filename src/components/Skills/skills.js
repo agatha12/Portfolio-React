@@ -109,7 +109,7 @@ const Skills = () => {
                 </Col>
                 <Col data-aos="slide-down" data-aos-duration="400" className="skill">
                 <Icon className="skillIcon" icon="whh:mysqltwo" />
-                    <p>MySQL</p>
+                    <p>MySQL </p>
                 </Col>
                 <Col data-aos="slide-down" data-aos-duration="800" className="skill">
                 <Icon className="skillIcon" 
